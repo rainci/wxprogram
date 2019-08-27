@@ -1,5 +1,8 @@
 <!--index.wxml-->
+<import src="../common/head.wxml" />
+
 <view class="container">
+  <template is="head" data="{{title: 'test header',desc:'test continue'}}"/>
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>

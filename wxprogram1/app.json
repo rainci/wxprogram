@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/map/map",
-    "pages/camera/camera"
+    "pages/camera/camera",
+    "pages/swiper/swiper"
   ],
   "tabBar": {
     "list": [
