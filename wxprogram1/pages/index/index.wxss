@@ -1,4 +1,5 @@
 /**index.wxss**/
+@import "../common/index.wxss";
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -17,5 +18,8 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 200rpx;
 }
+/* .container {
+  border: 10px solid red;
+} */

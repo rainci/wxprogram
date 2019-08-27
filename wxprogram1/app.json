@@ -16,20 +16,20 @@
       {
         "pagePath": "pages/logs/logs",
         "text": "日志",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png"
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png"
       },
       {
         "pagePath": "pages/map/map",
         "text": "地图",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png"
+        "iconPath": "image/icon_cloud.png",
+        "selectedIconPath": "image/icon_cloud_HL.png"
       },
       {
         "pagePath": "pages/camera/camera",
         "text": "拍照",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png"
+        "iconPath": "image/wechat.png",
+        "selectedIconPath": "image/wechatHL.png"
       }
     ]
   },
