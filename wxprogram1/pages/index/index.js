@@ -63,7 +63,7 @@ Page({
     }
   },
   getUserInfo: function(e) {
-    console.log(e)
+    console.log(111,e)
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,
@@ -84,5 +84,16 @@ Page({
       list
     })
     wx.reportAnalytics('click_view_programmatically', {})
+  },
+  getRun(){
+    wx.getWeRunData({
+      success(res) {
+        // 拿 encryptedData 到开发者后台解密开放数据
+        const encryptedData = res.encryptedData
+        console.log(222, encryptedData)
+        // 或拿 cloudID 通过云调用直接获取开放数据
+        // const cloudID = res.cloudID
+      }
+    })
   }
 })

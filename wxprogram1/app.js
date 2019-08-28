@@ -2,9 +2,9 @@
 App({
   onLaunch: function () {
     // 展示本地存储能力
-    var logs = wx.getStorageSync('logs') || []
+    var logs = wx.getStorageSync('logs') || []//获取本地缓存对应的key值
     logs.unshift(Date.now())
-    wx.setStorageSync('logs', logs)
+    wx.setStorageSync('logs', logs)//为本地缓存增加值
 
     // 登录
     wx.login({

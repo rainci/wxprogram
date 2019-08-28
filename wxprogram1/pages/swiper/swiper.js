@@ -1,5 +1,5 @@
 Page({
-  onShareAppMessage() {
+  onShareAppMessage() {//分享页面时展示的信息
     return {
       title: 'swiper demo',
       path: 'page/swiper/swiper'

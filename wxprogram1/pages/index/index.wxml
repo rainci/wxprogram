@@ -10,6 +10,15 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <view>
+    <open-data type="groupName" open-gid="xxxxxx"></open-data>
+    <!-- <open-data type="userAvatarUrl"></open-data> -->
+    <open-data type="userNickName" lang="zh_CN" bindtap="getRun"></open-data>
+    <open-data type="userGender" lang="zh_CN"></open-data>
+    <open-data type="userCity" lang="zh_CN"></open-data>
+    <open-data type="userProvince" lang="zh_CN"></open-data>
+    <open-data type="userCountry" lang="zh_CN"></open-data>
+  </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
