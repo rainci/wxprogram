@@ -10,7 +10,7 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view>
+  <view class="userinfom">
     <open-data type="groupName" open-gid="xxxxxx"></open-data>
     <!-- <open-data type="userAvatarUrl"></open-data> -->
     <open-data type="userNickName" lang="zh_CN" bindtap="getRun"></open-data>

@@ -23,3 +23,6 @@
 /* .container {
   border: 10px solid red;
 } */
+.userinfom {
+  text-align: center;
+}
