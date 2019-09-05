@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/map/map",
     "pages/camera/camera",
-    "pages/swiper/swiper"
+    "pages/swiper/swiper",
+    "pages/form/form"
   ],
   "tabBar": {
     "list": [

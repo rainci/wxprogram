@@ -1,0 +1,27 @@
+<view class="container">
+  <view>
+    <button type="primary">页面主操作 Normal</button>
+    <button type="default" loading="true">页面主操Loading</button>
+    <button type="primary" disabled="true">页面主操Disabled</button>
+    <button type="warn">警告类操作 Normal</button>
+    <button type="primary" plain="true">按钮</button>
+  </view>
+  <view>
+    <label class="checkbox">
+      <checkbox value="cb" checked="true"/>选中
+    </label>
+    <label class="checkbox" bindchange="checkboxChange">
+      <checkbox value="cb" />未选中
+    </label>
+  </view>
+  <view>
+    <checkbox-group bindchange="checkboxChange">
+      <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
+        <view class="weui-cell__hd">
+          <checkbox value="{{item.value}}" checked="{{item.checked}}"/>
+        </view>
+        <view class="weui-cell__bd">{{item.name}}</view>
+      </label>
+    </checkbox-group>
+  </view>
+</view>
